@@ -1,7 +1,7 @@
-import '@mantine/core/styles.css';
-import { createTheme, MantineProvider } from '@mantine/core';
-import { Routes, Route, Link} from "react-router-dom";
-
+import "@mantine/core/styles.css";
+import { createTheme, MantineProvider } from "@mantine/core";
+import { RouterProvider } from "react-router";
+import { router } from "./router/router";
 
 const theme = createTheme({
   /** Put your mantine theme override here */
@@ -10,9 +10,7 @@ const theme = createTheme({
 const Index = () => {
   return (
     <MantineProvider theme={theme}>
-    <div>
-      <h1>APP</h1>
-    </div>
+      <RouterProvider router={router} />
     </MantineProvider>
   );
 };
