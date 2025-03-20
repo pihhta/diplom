@@ -1,7 +1,13 @@
-import { Button, Flex, Image } from "@mantine/core";
+import { Button, Flex, Image, Stack } from "@mantine/core";
+import Header from "widgets/header/header";
+import { MainSlider } from "widgets/main-slider";
+
 
 const Main = () => {
-  return <Flex></Flex>;
+  return <Stack>
+    <Header/>
+    <MainSlider/>
+     </Stack>;
 };
 
 export default Main;
