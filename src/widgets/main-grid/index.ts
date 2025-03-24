@@ -1,1 +1,1 @@
-export {default as MainSlider} from './main-grid'
+export {default as MainGrid} from './main-grid'

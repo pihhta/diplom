@@ -19,6 +19,7 @@ const MainSlider = () => {
     >
       <Carousel.Slide>
         <BackgroundImage
+
           h="100%"
           w="100%"
           src={"./background1.jpg"}
@@ -26,7 +27,7 @@ const MainSlider = () => {
       </Carousel.Slide>
       <Carousel.Slide>
         <BackgroundImage
-          style={{ borderRadius: "500px" }}
+          style={{ borderRadius: "50px" }}
           h="100%"
           w="100%"
           src={"./background1.jpg"}
@@ -34,7 +35,7 @@ const MainSlider = () => {
       </Carousel.Slide>
       <Carousel.Slide>
         <BackgroundImage
-          style={{ borderRadius: "500px" }}
+          style={{ borderRadius: "50px" }}
           h="100%"
           w="100%"
           src={"./background1.jpg"}
