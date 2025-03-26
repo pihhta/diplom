@@ -22,8 +22,8 @@ const MainGrid = () => {
               src={"./IMAGE.png"}
             ></BackgroundImage>
             <Stack h="100px" m="0">
-            <p style={{ display: "flex", justifyContent: "end", margin:"0"}}>Laptop</p>
-            <h2 style={{ display: "flex", justifyContent: "end", marginTop:"-10px", marginLeft:"450px" , width:"30%"}}>
+            <p style={{ display: "flex", justifyContent: "end", margin:"0 15px"}}>Laptop</p>
+            <h2 style={{ display: "flex",textAlign:"right", justifyContent: "end", marginTop:"-20px", marginLeft:"405px" , width:"30%"}}>
               True Laptop Solution
             </h2>
             </Stack>
@@ -36,8 +36,8 @@ const MainGrid = () => {
               src={"./STRAP.png"}
             ></BackgroundImage>
             <Stack>
-              <p style={{ display: "flex", justifyContent: "end" }}>Laptop</p>
-              <h1 style={{ display: "flex", justifyContent: "end" }}>
+              <p style={{ display: "flex", justifyContent: "end", marginTop:"60px", marginRight:"20px" }}>Laptop</p>
+              <h1 style={{ display: "flex",  marginLeft:"60px", marginTop:"-40px", marginBottom:"-50px" }}>
                 Not just stylisht
               </h1>
             </Stack>
