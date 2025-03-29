@@ -12,24 +12,24 @@ const Footer = () => {
         <Flex  p="20px" w='1100px'>
           <Stack p="20px">
             <h2>All Products</h2>
-            <Text style={{margin:"0" }}>Phones</Text>
-            <Text style={{margin:"0"}}>Phones</Text>
-            <Text style={{margin:"0"}}>Phones</Text>
-            <Text style={{margin:"0"}}>Phones</Text>
+            <Text >Phones</Text>
+            <Text >Phones</Text>
+            <Text >Phones</Text>
+            <Text >Phones</Text>
           </Stack>
           <Stack p="20px">
             <h2>All Products</h2>
-            <Text style={{margin:"0" }}>Phones</Text>
-            <Text style={{margin:"0"}}>Phones</Text>
-            <Text style={{margin:"0"}}>Phones</Text>
-            <Text style={{margin:"0"}}>Phones</Text>
+            <Text >Phones</Text>
+            <Text>Phones</Text>
+            <Text >Phones</Text>
+            <Text >Phones</Text>
           </Stack>
           <Stack p="20px" m={0}>
             <h2 >All Products</h2>
             <Text>Phones</Text>
-            <Text style={{margin:"0"}}>Phones</Text>
-            <Text style={{margin:"0"}}>Phoness</Text>
-            <Text style={{margin:"0"}}>Phones</Text>
+            <Text >Phones</Text>
+            <Text >Phoness</Text>
+            <Text >Phones</Text>
           </Stack>
           
         </Flex>
