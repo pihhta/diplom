@@ -1,16 +1,16 @@
-import { BackgroundImage, Flex, Stack } from "@mantine/core";
+import { BackgroundImage, Flex, Stack, Title, Text } from "@mantine/core";
 
 const MainGrid = () => {
   return (
     <Stack h="1000px">
       <Stack align="center">
-        <h1 style={{marginBottom:"0" }}>Shop our latest offers and categories</h1>
-        <p style={{ width: "50%", marginTop:"0", textAlign: "center" }}>
+        <Title style={{marginBottom:"0" }}>Shop our latest offers and categories</Title>
+        <Text style={{ width: "50%", marginTop:"0", textAlign: "center" }}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quam vero
           reiciendis ullam quaerat quia ea laudantium, voluptatum ratione.
           Dolore exercitationem dignissimos, ea facere obcaecati officia ab? Et,
           sit expedita!
-        </p>
+        </Text>
       </Stack>
       <Flex justify="center" px="10px">
         <Stack w="800px" h="700px" px="10px" align="end">
