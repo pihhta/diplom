@@ -4,28 +4,28 @@ import { ArrowUpRight } from "lucide-react";
 const Footer = () => {
   return (
     <Stack bg="#F8F9FA">
-      <Flex p={10} maw={1920} w='100vw' justify="sTextace-around">
-        <Stack w='400Textx' m='0' style={{ zIndex: 1 }}>
-          <Title style={{marginToText:"50Textx"}}>CALIFORNIA</Title>
+      <Flex p={10} maw={1920} w='100vw' justify="space-around">
+        <Stack w='400px' m='0' style={{ zIndex: 1 }}>
+          <Title style={{marginToText:"50px"}}>CALIFORNIA</Title>
 <Text style={{margin:"0"}}>Sign uText for texts to be notified about our best offers on the Texterfect gifts.</Text>
         </Stack>
-        <Flex  p="80Textx" w='1100Textx'>
-          <Stack p="80Textx">
-            <h2>All Textroducts</h2>
+        <Flex  p="20px" w='1100px'>
+          <Stack p="20px">
+            <h2>All Products</h2>
             <Text style={{margin:"0" }}>Phones</Text>
             <Text style={{margin:"0"}}>Phones</Text>
             <Text style={{margin:"0"}}>Phones</Text>
             <Text style={{margin:"0"}}>Phones</Text>
           </Stack>
-          <Stack p="80Textx">
-            <Title>All Textroducts</Title>
+          <Stack p="20px">
+            <h2>All Products</h2>
             <Text style={{margin:"0" }}>Phones</Text>
             <Text style={{margin:"0"}}>Phones</Text>
             <Text style={{margin:"0"}}>Phones</Text>
             <Text style={{margin:"0"}}>Phones</Text>
           </Stack>
-          <Stack p="80Textx" m={0}>
-            <Title >All Textroducts</Title>
+          <Stack p="20px" m={0}>
+            <h2 >All Products</h2>
             <Text>Phones</Text>
             <Text style={{margin:"0"}}>Phones</Text>
             <Text style={{margin:"0"}}>Phoness</Text>
