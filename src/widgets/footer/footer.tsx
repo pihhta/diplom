@@ -39,19 +39,19 @@ const Footer = () => {
       <Stack m="0 100px 0 100px">
         <Divider my="xs" />
         <Flex justify="space-between" align={"center"}>
-          {" "}
+       
           <Flex align={"center"}>
             <h3>Made by:&nbsp; </h3>
             <Text> Azwedo</Text>
             <ArrowUpRight />
-          </Flex>{" "}
+          </Flex>
           <Flex align={"center"}>
             <h3>Textowered by:&nbsp; </h3>
             <Text> Webflow</Text>
             <ArrowUpRight />
           </Flex>
         </Flex>
-      </Stack>{" "}
+      </Stack>
     </Stack>
   );
 };
