@@ -19,7 +19,7 @@ function MainCard()  {
     />
   </Card.Section>
 
-  <h1 className="mantine-hidden-from-sm">
+  <h1 className="mantine-visible-from-lg">
     You&apos;ve won a million dollars in cash!
   </h1>
   <h3 className="mantine-hidden-from-xl">

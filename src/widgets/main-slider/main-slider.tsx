@@ -2,17 +2,18 @@ import { useRef } from "react";
 import Autoplay from "embla-carousel-autoplay";
 import { Carousel } from "@mantine/carousel";
 import { BackgroundImage, Flex } from "@mantine/core";
+import classes from './main-slidser.module.css'
 
 const MainSlider = () => {
   const autoplay = useRef(Autoplay({ delay: 2000 }));
   return (
-    <Flex px='100px'>
+    <Flex px={{lg:'100px', sm:"50px"}}>
     <Carousel
       w="100%"
-      
-      style={{ borderRadius: "50px", overflow: "hidden" }}
+  className={classes.carousel}
+      style={{borderRadius: "50px", overflow: "hidden" }}
       withIndicators
-      height={900}
+      height="900px"
       plugins={[autoplay.current]}
       onMouseEnter={autoplay.current.stop}
       onMouseLeave={autoplay.current.reset}
@@ -20,7 +21,7 @@ const MainSlider = () => {
       <Carousel.Slide>
         <BackgroundImage
 
-          h="100%"
+          h={{lg:"100%", sm:"70%"}}
           w="100%"
           src={"./background1.jpg"}
         ></BackgroundImage>
@@ -28,7 +29,7 @@ const MainSlider = () => {
       <Carousel.Slide>
         <BackgroundImage
           style={{ borderRadius: "50px" }}
-          h="100%"
+          h={{lg:"100%", sm:"70%"}}
           w="100%"
           src={"./background1.jpg"}
         ></BackgroundImage>
@@ -36,7 +37,7 @@ const MainSlider = () => {
       <Carousel.Slide>
         <BackgroundImage
           style={{ borderRadius: "50px" }}
-          h="100%"
+          h={{lg:"100%", sm:"70%"}}
           w="100%"
           src={"./background1.jpg"}
         ></BackgroundImage>

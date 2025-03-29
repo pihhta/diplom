@@ -9,7 +9,7 @@ import {
 
 const MainGrid = () => {
   return (
-    <Stack h="1000px">
+    <Stack h={{lg:"1000px", sm:"1050px"}}>
       <Stack align="center">
         <Title style={{ marginBottom: "0" }}>
           Shop our latest offers and categories
@@ -24,7 +24,7 @@ const MainGrid = () => {
           sit expedita!
         </Text>
       </Stack>
-      <Flex className="mantine-hidden-from-sm" justify="center" px="10px">
+      <Flex className="mantine-visible-from-lg" justify="center" px="10px">
         <Stack w="800px" h="700px" px="10px" align="end">
           <Stack
             h="400px"
@@ -169,101 +169,103 @@ const MainGrid = () => {
           </Stack>
         </Flex>
       </Flex>
-      <Stack m={{ sm: "0 50px 0 50px" }}>
-        <Flex
-          mt="10px"
-          h="200px"
-          style={{
-            boxShadow: "0 4px 10px rgba(0, 0, 0, 0.4)",
-            overflow: "hidden",
-          }}
-        >
-          <Image h="300px" w="400px" ml="50px" src={"./IMAGE.png"}></Image>
-          <Stack>
-            <Text m="10px 0px 0 200px">Laptop</Text>
-            <h3
-              style={{
-                margin: "0px 0px 0 170px",
-                textAlign: "end",
-                width: "30%",
-              }}
-            >
-              True Laptop Solution
-            </h3>
-          </Stack>
-        </Flex>
-      </Stack>
-      <Stack m={{ sm: "0 50px 0 50px" }}>
-        <Flex
-          mt="10px"
-          h="200px"
-          style={{
-            boxShadow: "0 4px 10px rgba(0, 0, 0, 0.4)",
-            overflow: "hidden",
-          }}
-        >
-          <Image h="300px" w="400px" ml="50px" src={"./IMAGE.png"}></Image>
-          <Stack>
-            <Text m="10px 0px 0 200px">Laptop</Text>
-            <h3
-              style={{
-                margin: "0px 0px 0 170px",
-                textAlign: "end",
-                width: "30%",
-              }}
-            >
-              True Laptop Solution
-            </h3>
-          </Stack>
-        </Flex>
-      </Stack>
-      <Stack m={{ sm: "0 50px 0 50px" }}>
-        <Flex
-          mt="10px"
-          h="200px"
-          style={{
-            boxShadow: "0 4px 10px rgba(0, 0, 0, 0.4)",
-            overflow: "hidden",
-          }}
-        >
-          <Image h="300px" w="400px" ml="50px" src={"./IMAGE.png"}></Image>
-          <Stack>
-            <Text m="10px 0px 0 200px">Laptop</Text>
-            <h3
-              style={{
-                margin: "0px 0px 0 170px",
-                textAlign: "end",
-                width: "30%",
-              }}
-            >
-              True Laptop Solution
-            </h3>
-          </Stack>
-        </Flex>
-      </Stack>
-      <Stack m={{ sm: "0 50px 0 50px" }}>
-        <Flex
-          mt="10px"
-          h="200px"
-          style={{
-            boxShadow: "0 4px 10px rgba(0, 0, 0, 0.4)",
-            overflow: "hidden",
-          }}
-        >
-          <Image h="300px" w="400px" ml="50px" src={"./IMAGE.png"}></Image>
-          <Stack>
-            <Text m="10px 0px 0 200px">Laptop</Text>
-            <h3
-              style={{
-                margin: "0px 0px 0 170px",
-                textAlign: "end",
-                width: "30%",
-              }}
-            >
-              True Laptop Solution
-            </h3>
-          </Stack>
-        </Flex>
+      <Stack  className="mantine-hidden-from-lg" >
+        <Stack m={{ sm: "0 50px 0 50px" }}>
+          <Flex
+            mt="10px"
+            h="200px"
+            style={{
+              boxShadow: "0 4px 10px rgba(0, 0, 0, 0.4)",
+              overflow: "hidden",
+            }}
+          >
+            <Image h="300px" w="400px" ml="50px" src={"./IMAGE.png"}></Image>
+            <Stack>
+              <Text m="10px 0px 0 200px">Laptop</Text>
+              <h3
+                style={{
+                  margin: "0px 0px 0 170px",
+                  textAlign: "end",
+                  width: "30%",
+                }}
+              >
+                True Laptop Solution
+              </h3>
+            </Stack>
+          </Flex>
+        </Stack>
+        <Stack m={{ sm: "0 50px 0 50px" }}>
+          <Flex
+            mt="10px"
+            h="200px"
+            style={{
+              boxShadow: "0 4px 10px rgba(0, 0, 0, 0.4)",
+              overflow: "hidden",
+            }}
+          >
+            <Image h="300px" w="400px" ml="50px" src={"./IMAGE.png"}></Image>
+            <Stack>
+              <Text m="10px 0px 0 200px">Laptop</Text>
+              <h3
+                style={{
+                  margin: "0px 0px 0 170px",
+                  textAlign: "end",
+                  width: "30%",
+                }}
+              >
+                True Laptop Solution
+              </h3>
+            </Stack>
+          </Flex>
+        </Stack>
+        <Stack m={{ sm: "0 50px 0 50px" }}>
+          <Flex
+            mt="10px"
+            h="200px"
+            style={{
+              boxShadow: "0 4px 10px rgba(0, 0, 0, 0.4)",
+              overflow: "hidden",
+            }}
+          >
+            <Image h="300px" w="400px" ml="50px" src={"./IMAGE.png"}></Image>
+            <Stack>
+              <Text m="10px 0px 0 200px">Laptop</Text>
+              <h3
+                style={{
+                  margin: "0px 0px 0 170px",
+                  textAlign: "end",
+                  width: "30%",
+                }}
+              >
+                True Laptop Solution
+              </h3>
+            </Stack>
+          </Flex>
+        </Stack>
+        <Stack m={{ sm: "0 50px 0 50px" }}>
+          <Flex
+            mt="10px"
+            h="200px"
+            style={{
+              boxShadow: "0 4px 10px rgba(0, 0, 0, 0.4)",
+              overflow: "hidden",
+            }}
+          >
+            <Image h="300px" w="400px" ml="50px" src={"./IMAGE.png"}></Image>
+            <Stack>
+              <Text m="10px 0px 0 200px">Laptop</Text>
+              <h3
+                style={{
+                  margin: "0px 0px 0 170px",
+                  textAlign: "end",
+                  width: "30%",
+                }}
+              >
+                True Laptop Solution
+              </h3>
+            </Stack>
+          </Flex>
+        </Stack>
       </Stack>
     </Stack>
   );
