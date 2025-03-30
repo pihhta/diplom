@@ -185,90 +185,74 @@ const MainGrid = () => {
               overflow: "hidden",
             }}
           >
-            <Image h="300px" w="400px" ml="50px" src={"./IMAGE.png"}></Image>
+            <Image h={{ sm:"300px", base:"150px"}} w={{sm:"400px", base:"300px"}} ml={{sm:"50px", base:"15px"}} src={"./IMAGE.png"}></Image>
             <Stack>
-              <Text m="10px 0px 0 200px">Laptop</Text>
-              <h3
-                style={{
-                  margin: "0px 0px 0 170px",
-                  textAlign: "end",
-                  width: "30%",
-                }}
-              >
-                True Laptop Solution
-              </h3>
+              <Text m={{ sm:"10px 0px 0 200px", base:"10px 0px 0px 80px"}}>Laptop</Text>
+              <Title ta="right" w={{sm:"40%",base:"60%"}} order={3} m={{sm:"0px 0px 0 150px",  base:"0px 0px 0px 40px"}}
+             
+             >
+               True Laptop Solution
+             </Title>
             </Stack>
           </Flex>
         </Stack>
         <Stack m={{ sm: "0 50px 0 50px" }}>
           <Flex
             mt="10px"
-            h="200px"
+            h={{ sm:"200px", base:"150px"}}
             style={{
               boxShadow: "0 4px 10px rgba(0, 0, 0, 0.4)",
               overflow: "hidden",
             }}
           >
-            <Image h="300px" w="400px" ml="50px" src={"./IMAGE.png"}></Image>
+            <Image h={{ sm:"300px", base:"150px"}} w={{sm:"400px", base:"300px"}} ml={{sm:"50px", base:"15px"}} src={"./IMAGE.png"}></Image>
             <Stack>
-              <Text m="10px 0px 0 200px">Laptop</Text>
-              <h3
-                style={{
-                  margin: "0px 0px 0 170px",
-                  textAlign: "end",
-                  width: "30%",
-                }}
-              >
-                True Laptop Solution
-              </h3>
+              <Text m={{ sm:"10px 0px 0 200px", base:"10px 0px 0px 80px"}}>Laptop</Text>
+              <Title ta="right" w={{sm:"40%",base:"60%"}} order={3} m={{sm:"0px 0px 0 150px",  base:"0px 0px 0px 40px"}}
+             
+             >
+               True Laptop Solution
+             </Title>
             </Stack>
           </Flex>
         </Stack>
         <Stack m={{ sm: "0 50px 0 50px" }}>
           <Flex
             mt="10px"
-            h="200px"
+            h={{ sm:"200px", base:"150px"}}
             style={{
               boxShadow: "0 4px 10px rgba(0, 0, 0, 0.4)",
               overflow: "hidden",
             }}
           >
-            <Image h="300px" w="400px" ml="50px" src={"./IMAGE.png"}></Image>
+            <Image h={{ sm:"300px", base:"150px"}} w={{sm:"400px", base:"300px"}} ml={{sm:"50px", base:"15px"}} src={"./IMAGE.png"}></Image>
             <Stack>
-              <Text m="10px 0px 0 200px">Laptop</Text>
-              <h3
-                style={{
-                  margin: "0px 0px 0 170px",
-                  textAlign: "end",
-                  width: "30%",
-                }}
-              >
-                True Laptop Solution
-              </h3>
+              <Text m={{ sm:"10px 0px 0 200px", base:"10px 0px 0px 80px"}}>Laptop</Text>
+              <Title ta="right" w={{sm:"40%",base:"60%"}} order={3} m={{sm:"0px 0px 0 150px",  base:"0px 0px 0px 40px"}}
+             
+             >
+               True Laptop Solution
+             </Title>
             </Stack>
           </Flex>
         </Stack>
         <Stack m={{ sm: "0 50px 0 50px" }}>
           <Flex
             mt="10px"
-            h="200px"
+            h={{ sm:"200px", base:"150px"}}
             style={{
               boxShadow: "0 4px 10px rgba(0, 0, 0, 0.4)",
               overflow: "hidden",
             }}
           >
-            <Image h="300px" w="400px" ml="50px" src={"./IMAGE.png"}></Image>
+            <Image h={{ sm:"300px", base:"150px"}} w={{sm:"400px", base:"300px"}} ml={{sm:"50px", base:"15px"}} src={"./IMAGE.png"}></Image>
             <Stack>
-              <Text m="10px 0px 0 200px">Laptop</Text>
-              <h3
-                style={{
-                  margin: "0px 0px 0 170px",
-                  textAlign: "end",
-                  width: "30%",
-                }}
+              <Text m={{ sm:"10px 0px 0 200px", base:"10px 0px 0px 80px"}}>Laptop</Text>
+              <Title ta="right" w={{sm:"40%",base:"60%"}} order={3} m={{sm:"0px 0px 0 150px",  base:"0px 0px 0px 40px"}}
+             
               >
                 True Laptop Solution
-              </h3>
+              </Title>
             </Stack>
           </Flex>
         </Stack>
