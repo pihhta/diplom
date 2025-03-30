@@ -7,7 +7,7 @@ import classes from './main-slidser.module.css'
 const MainSlider = () => {
   const autoplay = useRef(Autoplay({ delay: 2000 }));
   return (
-    <Flex px={{lg:'100px', sm:"50px"}}>
+    <Flex px={{lg:'100px', sm:"50px", base:"10px"}}>
     <Carousel
       w="100%"
   className={classes.carousel}
@@ -20,8 +20,8 @@ const MainSlider = () => {
     >
       <Carousel.Slide>
         <BackgroundImage
-
-          h={{lg:"100%", sm:"70%"}}
+           style={{ borderRadius: "50px" }}
+          h={{ base:"40%",lg:"100%", sm:"70%", xs:"50%"}}
           w="100%"
           src={"./background1.jpg"}
         ></BackgroundImage>
@@ -29,7 +29,7 @@ const MainSlider = () => {
       <Carousel.Slide>
         <BackgroundImage
           style={{ borderRadius: "50px" }}
-          h={{lg:"100%", sm:"70%"}}
+          h={{ base:"40%",lg:"100%", sm:"70%", xs:"50%"}}
           w="100%"
           src={"./background1.jpg"}
         ></BackgroundImage>
@@ -37,7 +37,7 @@ const MainSlider = () => {
       <Carousel.Slide>
         <BackgroundImage
           style={{ borderRadius: "50px" }}
-          h={{lg:"100%", sm:"70%"}}
+          h={{ base:"40%",lg:"100%", sm:"70%", xs:"50%"}}
           w="100%"
           src={"./background1.jpg"}
         ></BackgroundImage>

@@ -3,3 +3,8 @@
       height: 500px;
     }
   }
+@media (max-width: 30em) {
+    .carousel {
+      height: 300px; 
+    }
+  }

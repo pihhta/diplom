@@ -9,13 +9,19 @@ import {
 
 const MainGrid = () => {
   return (
-    <Stack h={{lg:"1000px", sm:"1050px"}}>
+    <Stack h={{lg:"1000px", sm:"1050px", base:""}}>
       <Stack align="center">
-        <Title style={{ marginBottom: "0" }}>
+        <Title className="mantine-visible-from-lg"  order={1} style={{ marginBottom: "0"}}>
+          Shop our latest offers and categories
+        </Title>
+        <Title className="mantine-visible-from-sm"  order={1} style={{ marginBottom: "0"}}>
+          Shop our latest offers and categories
+        </Title>
+        <Title ta="center" className="mantine-visible-from-base" order={3} style={{ marginBottom: "0"}}>
           Shop our latest offers and categories
         </Title>
         <Text
-          w={{ lg: "50%", sm: "70%" }}
+          w={{ lg: "50%", sm: "70%", base:"80%" }}
           style={{ marginTop: "0", textAlign: "center" }}
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quam vero
@@ -173,7 +179,7 @@ const MainGrid = () => {
         <Stack m={{ sm: "0 50px 0 50px" }}>
           <Flex
             mt="10px"
-            h="200px"
+            h={{ sm:"200px", base:"150px"}}
             style={{
               boxShadow: "0 4px 10px rgba(0, 0, 0, 0.4)",
               overflow: "hidden",
