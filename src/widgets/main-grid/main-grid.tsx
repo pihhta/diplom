@@ -9,15 +9,13 @@ import {
 
 const MainGrid = () => {
   return (
-    <Stack h={{lg:"1000px", sm:"1050px", base:""}}>
+    <Stack h={{lg:"950px", sm:"1050px"}}>
       <Stack align="center">
-        <Title className="mantine-visible-from-lg"  order={1} style={{ marginBottom: "0"}}>
+        <Title mt="50px" h="50px" className="mantine-visible-from-lg"  order={1} style={{ marginBottom: "0"}}>
           Shop our latest offers and categories
         </Title>
-        <Title className="mantine-visible-from-sm"  order={1} style={{ marginBottom: "0"}}>
-          Shop our latest offers and categories
-        </Title>
-        <Title ta="center" className="mantine-visible-from-base" order={3} style={{ marginBottom: "0"}}>
+       
+        <Title className="mantine-hidden-from-lg"  ta="center" order={3} style={{ marginBottom: "0"}}>
           Shop our latest offers and categories
         </Title>
         <Text

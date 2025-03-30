@@ -4,15 +4,9 @@ import { MainCard } from "features/cards";
 
 function MainCardSlider() {
   return (
-    <>
-      <Stack align="center">
-        <Title
-          className="mantine-visible-from-sm"
-          order={1}
-          style={{ marginBottom: "0" }}
-        >
-          Shop our latest offers and categories
-        </Title>
+    <Stack h={{lg:"950px"}}>
+      <Stack align="center" >
+      
         <Title
           className="mantine-visible-from-lg"
           order={1}
@@ -22,7 +16,7 @@ function MainCardSlider() {
         </Title>
         <Title
           ta="center"
-          className="mantine-visible-from-base"
+          className="mantine-hidden-from-lg"
           order={3}
           style={{ marginBottom: "0" }}
         >
@@ -39,7 +33,7 @@ function MainCardSlider() {
         </Text>
       </Stack>
       <Carousel
-        mt="10px"
+        mt={{lg:"70px", sm:"10px"}}
         withIndicators
         h={{ lg: "700px", sm: "450px" }}
         slideSize={{ base: "100%", sm: "50%", md: "33.333333%" }}
@@ -72,7 +66,7 @@ function MainCardSlider() {
           <MainCard />
         </Carousel.Slide>
       </Carousel>
-    </>
+    </Stack>
   );
 }
 
