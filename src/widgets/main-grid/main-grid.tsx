@@ -21,7 +21,7 @@ const MainGrid = () => {
           Shop our latest offers and categories
         </Title>
         <Text
-          w={{ lg: "50%", sm: "70%", base:"80%" }}
+          w={{ lg: "50%", sm: "70%", base:"90%" }}
           style={{ marginTop: "0", textAlign: "center" }}
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quam vero
