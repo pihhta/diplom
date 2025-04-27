@@ -20,6 +20,7 @@ const MainSlider = () => {
     >
       <Carousel.Slide>
         <BackgroundImage
+        p="20px"
            style={{ borderRadius: "50px" }}
           h={{ base:"40%",lg:"100%", sm:"70%", xs:"50%"}}
           w="100%"
@@ -28,6 +29,7 @@ const MainSlider = () => {
       </Carousel.Slide>
       <Carousel.Slide>
         <BackgroundImage
+           p="20px"
           style={{ borderRadius: "50px" }}
           h={{ base:"40%",lg:"100%", sm:"70%", xs:"50%"}}
           w="100%"
@@ -36,6 +38,7 @@ const MainSlider = () => {
       </Carousel.Slide>
       <Carousel.Slide>
         <BackgroundImage
+           p="20px"
           style={{ borderRadius: "50px" }}
           h={{ base:"40%",lg:"100%", sm:"70%", xs:"50%"}}
           w="100%"

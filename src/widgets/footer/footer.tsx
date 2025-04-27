@@ -75,7 +75,7 @@ const Footer = () => {
             Sign up for texts to be notified about our best offers on the
             perfect gifts.
           </Text>
-          <Flex p={{ lg: "20px", sm: "0px", base:"10px" }} gap="lg" justify="center">
+          <Flex p={{ lg: "20px", sm: "10px", base:"10px"}} gap="lg" justify="center">
             <Stack p="10px" ta="center">
               <Title order={3}>All Products</Title>
               <Text>Phones</Text>
